@@ -1,10 +1,10 @@
 # Quero Teste
 
 Pastas 
--**partials** contém os arquivos scss separados por página e conteúdo 
--**css** css compilado 
--**base** arquivo base _resets.css_
--**compoments** compomentes do site como menu...
+- **partials** contém os arquivos scss separados por página e conteúdo 
+- **css** css compilado 
+- **base** arquivo base _resets.css_
+- **compoments** compomentes do site como menu...
 
 
 ## Tools utilizadas  
