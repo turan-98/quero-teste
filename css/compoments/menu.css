@@ -1,0 +1,86 @@
+.header {
+  color: #18ACC4;
+  font-weight: 500;
+}
+
+.shadow-box {
+  -webkit-box-shadow: 2px 8px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 8px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 8px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper-menu {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: inherit;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.wrapper-menu:nth-child(2) {
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+}
+
+.help-user, .conta-quero, .contato {
+  display: flex;
+  flex-flow: row;
+  margin-top: 1rem;
+}
+.help-user p, .conta-quero p, .contato p {
+  margin: 0.5rem;
+}
+
+.brand-quero {
+  margin: 1rem;
+  height: 5%;
+}
+
+.space {
+  height: 50px;
+  width: 1px;
+  margin: 0.7rem;
+  background-color: #dedede;
+}
+
+.fas, .far, .fab {
+  display: block;
+  margin-top: 7%;
+  font-size: 1.5rem;
+}
+
+.fa-whatsapp {
+  color: #25D366;
+}
+
+.navigation-quero {
+  text-decoration: none;
+  padding: 1rem;
+  padding-left: 3rem;
+  background: #18ACC4;
+}
+.navigation-quero .action {
+  padding: 1rem;
+  color: white;
+}
+
+.wrapper-conta {
+  padding: 1rem;
+  padding-left: 3rem;
+}
+.wrapper-conta .links {
+  color: initial;
+  font-weight: 300;
+}
+.wrapper-conta .-visited {
+  color: #18ACC4;
+}
+.wrapper-conta .-mobile {
+  display: none;
+}
+
+/*# sourceMappingURL=css/compoments/menu.css.map */

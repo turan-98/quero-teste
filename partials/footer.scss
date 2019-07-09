@@ -1,0 +1,44 @@
+@import"colors.scss";
+.wrapper-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    padding: .5rem;
+    background: $primary-01;
+    > .contato{
+      color:white;
+      flex-basis: 300px;
+      font-weight: 500;
+    }
+    .fa-whatsapp{
+      color:inherit;
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+    .fas{
+      @extend .fa-whatsapp;
+    }
+    .far{
+      @extend .fa-whatsapp;
+    }
+  }
+  
+  .container-icons {
+   // -ms-flex-preferred-size: 300px;
+    //flex-basis: 350px;
+    color:white;
+  }
+  .message-footer{
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+      font-size: 12px;
+      background: $primary;
+      color:white;
+  }
+  /*# sourceMappingURL=footer.css.map */

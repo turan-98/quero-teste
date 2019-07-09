@@ -1,0 +1,43 @@
+body{
+  background: #FBFBFB;
+  font-family: 'Roboto', sans-serif;
+}
+body.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin:.5rem;
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.sidebar {
+  order: -1;
+}
+
+.sidebar, .ads {
+  flex-basis: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* 900px */
+  .content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    order: -1;
+  }
+}
+
+/*# sourceMappingURL=css/style.css.map */

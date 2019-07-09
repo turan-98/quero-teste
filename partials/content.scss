@@ -1,0 +1,63 @@
+@import"colors.scss","tools.scss";
+.-active{
+    background: $primary-01;
+}
+.-jumbo{
+    color:#333;
+}
+.text-muted{
+    font-weight: 300;
+    color:rgb(116, 114, 114);
+}
+.wrapper-semestres{
+    display: flex;
+    width: 500px;
+}
+.-group-button-active{
+    color: #fff !important;
+    background: $primary-01;
+}
+.btn-group-light{
+    flex-shrink: 1;
+    border:1px $primary solid;
+    padding:.3rem;
+    color:$primary-01;
+    font-weight: 600;
+    transition: .4s;
+    cursor: pointer;
+    &:first-child{
+        @include radius(4px 0 0  4px);
+    }
+    &:last-child{
+        @include radius(0 4px 4px  0);
+    }
+    &:hover{
+        border-color:$primary-01;
+    }
+}
+.wrapper-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    @include radius(4px);
+    margin: 1rem;
+    border:1px solid #eeddee;
+    -webkit-box-shadow: -1px 0px 9px -5px rgba(110,109,110,1);
+    -moz-box-shadow: -1px 0px 9px -5px rgba(110,109,110,1);
+    box-shadow: -1px 0px 9px -5px rgba(110,109,110,1);
+    width: 15%;
+    height: 50vh;
+    padding: 1rem;
+    text-align: center;
+    @media screen and(max-width:768px) {
+        width: 35%;
+    }
+}
+.fa-plus{
+    display: block;
+    padding: .5rem .6rem;
+    color: $primary;
+    @include radius(100%);
+    border: 2px $primary solid;
+}

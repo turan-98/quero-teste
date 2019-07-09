@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html  lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Quero Bolsa</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base/resets.css">
+  <link rel="stylesheet" href="css/compoments/menu.css">
+  <link rel="stylesheet" href="css/compoments/footer.css">
+  <link rel="stylesheet" href="css/compoments/content.css">
+  <link rel="stylesheet" href="css/compoments/modal.css">
+  <script src="https://kit.fontawesome.com/4d3beb0449.js"></script>
+</head>
+<body class="container">
+  <header class="header">
+    <div class="shadow-box">
+      <div class="wrapper-menu">
+        <div class="container">
+          <div class="help-user">
+            <i class="fas fa-info-circle"></i>
+            <p>Como funciona</p> 
+          </div>   
+          <div class="space"></div> 
+          <div class="contato">
+              <i class="fab fa-whatsapp"></i>
+              <div class="container-txt">
+                  <p>0800 123 2222</p>
+                  <p>Envie mensagem ou ligue</p>
+              </div>
+          </div>
+        </div>
+          <div class="brand-quero">
+            <img src="img/Quero-Bolsa.png" alt="">
+          </div>
+          <nav class="conta-quero">
+            <i class="far fa-user"></i>
+            <p>Como funciona</p>
+          </nav>
+      </div>
+    </div>
+    <nav class="navigation-quero">
+      <a href="" class="action">Minha Conta</a>
+      <a href="" class="action">Pré Matricula </a>
+      <a href="" class="action -active">Bolsas Favoritas</a>
+    </nav>
+    <div class="wrapper-conta">
+      <span class="links -visited">Home /</span>
+      <span class="links -visited">Minha Conta /</span>
+      <span class="links ">Bolsas Favoritas</span>
+      <button class="minhaConta -mobile">< Conta</button>
+    </div>
+  </header>
+  <div class="content">
+     <aside class="sidebar">
+       <h1 class="title -jumbo">Bolsas Favoritas</h1>
+       <p class="text-muted">Adicione bolsas de cursos e 
+         faculdades do seu interesse e receba atualizações com as
+          melhores ofertas disponíveis.</p>
+      </aside>
+     <main class="main">
+        <div class="wrapper-semestres">
+            <button class="btn-group-light -group-button-active">Todos os semestres</button>
+            <button class="btn-group-light">2° Semestres de 2019</button>
+            <button class="btn-group-light">1° Semestres de 2020</button>
+        </div> 
+     </main>
+     <aside class="ads">
+        <div class="wrapper-card">
+            <a href="#open-modal" class="add">
+                <i class="fas fa-plus"></i>
+            </a>
+            <h3 class="title -jumbo">Adicionar bolsa</h3>
+            <p class="text-muted">
+              Clique para adicionar bolsas de
+cursos do seu interesse
+            </p>
+        </div>
+      <!-- 
+        Teste get API
+        <button  id="get-data">Get Json</button>
+           <div id="show-data"></div>
+      -->
+        <div id="open-modal" class="modal-window">
+          <div>
+            <div>
+              <h1 class="title -jumbo">Adicionar Bolsa</h1>
+              <p class="text-muted">Filtre e adicione as bolsa de seu enteresse</p>
+            </div>
+            <div class="form-group -row">
+              <div class="form-row">
+                <label class="label">Selecione sua cidade</label>
+                <select name="" id="" class="inputForm -cidade">
+                  <optgroup>
+                    <option value="São José dos Campos">São José dos Campos</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="form-row">
+                  <label class="label">selecione o curso de sua preferência</label>
+                  <select name="" id="" class="inputForm -cidade">
+                      <optgroup>
+                        <option value="São José dos Campos">São José dos Campos</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                      </optgroup>
+                    </select>
+              </div>  
+          </div>
+          <div class="form-group -row">
+            <div class="form-row">
+              <label for="" class="label">Como você quer estudar ?</label>
+              <div class="wrapper-check">
+                  <label class="container-check">Presencial
+                      <input type="checkbox" checked="checked">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container-check">A distância
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="" class="label">até quanto pode pagar ?</label>
+              <div></div>
+            </div>
+          </div>
+          <div class="form-column">
+            <div class="container-label">
+              <div class="d-space-between">
+                <h4 class="title -jumbo">Resultado:</h4>
+                <a href="" class="search">Ordernar por </a>
+              </div>
+            </div>
+              <div class="d-space-between">
+                <div class="wrapper-check">
+                  <label class="container-check">
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                  </label>
+                </div>
+                <figure class="container-img">
+                  <img src="img/anhanguera.png" alt="" class="college">
+                </figure>
+                <div class="wrapper-curse">
+                    <p class="text-blue">Administração</p>
+                    <p class="text-muted">Bacharelado</p>
+                  </div>
+                <div class="wrapper-price">
+                  <p class="text-muted">Bolsa de <span class="text-sucess">50%</span></p>
+                  <p class="text-sucess">R$ 374/mês</p>
+                </div>
+              </div>
+              <div class="d-space-between">
+                  <div class="wrapper-check">
+                    <label class="container-check">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                  </div>
+                  <figure class="container-img">
+                    <img src="img/anhanguera.png" alt="" class="college">
+                  </figure>
+                  <div class="wrapper-curse">
+                      <p class="text-blue">Pedagocia</p>
+                      <p class="text-muted">licenciatura</p>
+                    </div>
+                  <div class="wrapper-price">
+                    <p class="text-muted">Bolsa de <span class="text-sucess">52%</span></p>
+                    <p class="text-sucess">R$ 294/mês</p>
+                  </div>
+                </div>
+            </div>
+            <div class="button-container -flex">
+              <a href="#" class="close-modal -outline">Cancelar</a>
+              <a class="confirm -disabled">Adicionar Bolsa</a>
+            </div> 
+          </div>  
+     </aside>
+  </div>
+  <footer class="footer">
+    <div class="wrapper-footer">
+      <div class="contato">
+        <i class="fab fa-whatsapp"></i>
+        <div class="container-txt">
+            <p>0800 123 2222</p>
+            <p>Seg - Sex 8h-22h</p>
+        </div>
+    </div>
+      <div class="contato">
+          <i class="far fa-comments"></i>
+          <div class="container-txt">
+              <p>Chat ao vivo</p>
+              <p>Seg - Sex 8h-22h</p>
+          </div>
+      </div>
+      <div class="contato">
+          <i class="far fa-envelope"></i>
+          <div class="container-txt">
+              <p>Mande um e-mail</p>
+              <p>Respondemos rapidinho</p>
+          </div>
+      </div>
+      <div class="contato">
+          <i class="fas fa-info-circle"></i>
+          <div class="container-text">
+              <p>Central de ajuda</p>
+              <p>Encontre todas as respostas</p> 
+          </div>
+      </div>
+    </div>
+    <div class="message-footer">
+      <p class="text">Feito com <i class="far fa-heart"></i> pela Quero Educação</p>
+    </div>
+</footer>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src="scholarships.js"></script>
+</body>
+</html>

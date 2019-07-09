@@ -1,0 +1,12 @@
+@mixin radius($value){
+    -webkit-border-radius:$value;
+    -moz-border-radius:$value;
+    border-radius:$value;
+}
+%row-gap {
+    justify-content: flex-end;
+    *{
+        flex: 1 1 8px;
+        margin: 10px;
+    }
+}

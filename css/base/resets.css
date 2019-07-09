@@ -1,0 +1,33 @@
+
+*,*:before , *:after{
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+  }
+  
+  * {
+    padding:0;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  html{
+    /*font-size: 65.2%;*/
+    scroll-behavior: smooth;
+  }
+  
+  small{
+    font-size: 1.4rem;
+    margin:1rem;
+  }
+  
+  img{
+    width: 80px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
